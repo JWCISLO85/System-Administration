@@ -1,4 +1,4 @@
-# Understanding Microsoft Server Failover#
+# Understanding Microsoft Server Failover
 <p align="center">
 <img src= "https://mertcangokgoz.com/wp-content/uploads/2020/11/windows-server-2019-fhd-logo.png" alt="Windows Server Logo"/>
 </p>
@@ -8,15 +8,18 @@ I completed a lab on configuring DHCP failover between two Windows Server 2019 d
 <br />
 
 
-<h2>Environments and Technologies Used</h2>
+<h2>What I Accomplished</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+-Configured Server Manager to manage multiple servers remotely 
+-Installed and configured DHCP role with custom scope
+-Set up IP exclusions and lease durations
+-Successfully activated the scope and verified client IP assignment
 
-<h2>Operating Systems Used </h2>
-
-- Windows 10</b> (21H2)
+<h2>Failover Configuration </h2>
+ -Implemented Hot Standby mode between two domain controllers
+ -Configured partner server relationships with shared secrets
+ - Set up maximum client lead time and standby server address allocation
+</b> (21H2)
 
 <h2>List of Prerequisites</h2>
 
