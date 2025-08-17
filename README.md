@@ -22,16 +22,14 @@ I completed a lab on configuring DHCP failover between two Windows Server 2019 d
  - Set up maximum client lead time and standby server address allocation
 </b> 
 
-<h2>List of Prerequisites</h2>
+<h2>Troubelshooting</h2>
+𝐓𝐫𝐨𝐮𝐛𝐥𝐞𝐬𝐡𝐨𝐨𝐭𝐢𝐧𝐠
+I did come across some challenges during this lab but this was a valuable learning experience for me:
 
-- Created Virtual Machine in Azure.
-- Enabled IIS in Windows with CGI and common HTTP features.
-- Enabled IIS Managent Console
-- Installed PHP Manager for IIS
-- Installed Rewrite Module
-- Installed Visual C++
-- Installed MYSQL Database
-- Installed OSTicket and configured
+𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞#1 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐧𝐠 𝐃𝐇𝐂𝐏 𝐒𝐞𝐫𝐯𝐞𝐫𝐬 My Windows 10 client kept getting IP addresses I had excluded. After investigating, I discovered the firewall/router had its on DHCP server running. I had to access the M0n0wall web GUI to disable the competing service. This is a good reminder to check all devices and not just one that you are working on.
+
+𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞#2 𝐃𝐨𝐦𝐚𝐢𝐧 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐌𝐢𝐬𝐭𝐚𝐤𝐞 The biggest learning moment came trying to set up failover between servers. I had accidently created a new forest instead of adding the second server to the existing domain. This prevented the failover configuration entirely and required rebuilding the virtual machine.
+
 
 <h2>Installation Steps</h2>
 
