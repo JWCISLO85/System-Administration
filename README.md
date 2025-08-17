@@ -17,6 +17,7 @@ I completed a lab on configuring DHCP failover between two Windows Server 2019 d
 
 <h2>Failover Configuration </h2>
  - Implemented Hot Standby mode between two domain controllers
+ 
  - Configured partner server relationships with shared secrets
  - Set up maximum client lead time and standby server address allocation
 </b> 
