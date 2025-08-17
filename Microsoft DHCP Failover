@@ -1,1 +1,28 @@
+# Setting Microsoft Server DHCP Failover #
+<p align="center">
+<img src= "https://mertcangokgoz.com/wp-content/uploads/2020/11/windows-server-2019-fhd-logo.png" alt="Windows Server Logo"/>
+</p>
+
+<h1> Setting Up Microsoft Server DHCP Failover<h1></h1>
+ I completed a lab on configuring DHCP failover between two Windows Server 2019 domain controllers. I did run into some difficulties which gave me the opportunity to use some real-world troubleshooting.</h1>
+<br />
+
+
+<h2>Skills Learned </h2>
+𝐏𝐨𝐰𝐞𝐫𝐒𝐡𝐞𝐥𝐥 𝐀𝐝𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐚𝐭𝐢𝐨𝐧: Learned the differences between running PowerShell as a regular user vs Administrator. This elevated privileges eliminated user account control prompts when making changes to the system such as software installation and permission modifications.
+
+𝐍𝐞𝐭𝐰𝐨𝐫𝐤 𝐓𝐫𝐨𝐮𝐛𝐥𝐞𝐬𝐡𝐨𝐨𝐭𝐢𝐧𝐠: Used ping and nslookup
+𝐏𝐢𝐧𝐠:Tests connectivity between systems.
+𝐍𝐬𝐥𝐨𝐨𝐤𝐮𝐩: Queries DNS servers to resolve domain names to IP addresses (and vice versa) an essential tool for diagnosing network connectivity issues.
+
+𝐃𝐨𝐦𝐚𝐢𝐧 𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐨𝐧
+Successfully joined a Windows 10 client to Windows Server domain using PowerShell commands. This hands-on experience taught me how domain authentication works and why systems go through initial set up processes when first joining a domain. This is all about about applying Group Policy and integrating with centralized management.
+
+<h2>What I learned </h2>
+ The lab reinforced how Group Policy enables organizations to maintain consistent configurations across all domain-joined machines, providing centralized control and standardized user experiences.
+
+System administration is not just about knowing commands, it is about understanding underlying network architecture and security implications of each action.
+
+
+</b> 
 
