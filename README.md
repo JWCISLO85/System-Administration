@@ -1,9 +1,9 @@
-<h1>System Management <h1></h1>
+# System Management #
 <p align="center">
 <img src= "https://mertcangokgoz.com/wp-content/uploads/2020/11/windows-server-2019-fhd-logo.png" alt="Windows Server Logo"/>
 </p>
 
-<h1>𝐒ystem Management<h1></h1>
+<h1> System Management<h1></h1>
 I completed a lab for my system administration course at Champlain College. The lab focused on Windows domain integration and PowerShell administration.</h1>
 <br />
 
