@@ -1,10 +1,10 @@
-# Understanding Microsoft Server Failover
+# System Management
 <p align="center">
 <img src= "https://mertcangokgoz.com/wp-content/uploads/2020/11/windows-server-2019-fhd-logo.png" alt="Windows Server Logo"/>
 </p>
 
-<h1>𝐒𝐞𝐭𝐭𝐢𝐧𝐠 𝐔𝐩 𝐌𝐢𝐜𝐫𝐨𝐬𝐨𝐟𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 𝐃𝐇𝐂𝐏 𝐅𝐚𝐢𝐥𝐨𝐯𝐞𝐫<h1></h1>
-I completed a lab on configuring DHCP failover between two Windows Server 2019 domain controllers. I did run into some difficulties which gave me the opportunity to use some real-world troubleshooting.</h1>
+<h1>𝐒ystem Management<h1></h1>
+I completed a lab for my system administration course at Champlain College. The lab focused on Windows domain integration and PowerShell administration. I developed the following skills:</h1>
 <br />
 
 
